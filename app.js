@@ -1,15 +1,7 @@
 'use strict';
 
-const conversions = [
-  'gToKg',
-  'gToMg',
-  'kgToG',
-  'kgToMg',
-  'mgToG',
-  'mgToKg'
-];
-
-for (const conversion of conversions) {
+for (const conversion of Object.keys(convert)) {
   const placeholder = document.getElementById(conversion);
+  if (!placeholder) continue;
   placeholder.textContent = convert[conversion]().toString();
 }
