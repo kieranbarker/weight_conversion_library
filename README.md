@@ -4,3 +4,4 @@ This is the first project from the [Advanced JavaScript: Structure &amp; Scale](
 
 1. [Revealing module pattern](https://kieranbarker.github.io/weight_conversion_library/revealing_module_pattern/)
 2. [Class](https://kieranbarker.github.io/weight_conversion_library/class/)
+3. [Method chaining](https://kieranbarker.github.io/weight_conversion_library/method_chaining/)
