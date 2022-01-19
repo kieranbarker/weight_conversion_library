@@ -1,4 +1,4 @@
-const convert = (function() {
+const Convert = (function() {
 
   'use strict';
 
